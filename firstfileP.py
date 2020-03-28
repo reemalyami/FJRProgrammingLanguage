@@ -3,7 +3,6 @@
 """
 Created on Wed Mar 25 04:00:14 2020
 
-@author: jawharah
 """
 
 import ply.lex as lex
@@ -78,13 +77,7 @@ def p_var_assign(p):
     '''
     p[0]=('=',p[1],p[3])
     
-#def p_print(p):
- #   '''
-  #  expression : PRINT
-    
-    #'''
-   # p[0] =  ('text', p[1]) 
-#writing operators in order
+
 def p_expression(p):
    '''
    expression : expression MULTIPLY expression
