@@ -1,3 +1,3 @@
 # FJR 1.0
 
-This project aims to create a FJR programming language that does simple tasks: define a variable and basic mathemetical operations (add,subtract,multiply and division). It was developed using Python Lex-Yacc PLY implementation.
+FJR programming language is developed for visually impiared users to allow the to experment and learn basic programming tasks like defining a variable and do basic mathemetical operations (add,subtract,multiply and division). It was developed using Python Lex-Yacc PLY implementation.
